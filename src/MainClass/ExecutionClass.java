@@ -9,9 +9,11 @@ package MainClass;
 
 import com.sun.jdi.PathSearchingVirtualMachine;
 
+import java.util.Scanner;
+
 public class ExecutionClass {
     public static void main(String[] args) {
-
+        Scanner scannerObject = new Scanner(System.in);
         System.out.println("=====WELCOME___TO___COMBO___PROGRAMS=====");
         System.out.println("PLEASE ENTER YOUR CHOICES BETWEEN 1 TO 4");
         System.out.println("PRESS::::1--->FOR THE EXECUTION OF THE PROGRAM OF 1 'ANAGRAM'");
@@ -19,7 +21,8 @@ public class ExecutionClass {
         System.out.println("PRESS::::3---> FOR THE EXECUTION OF THE PROGRAM OF PERFORMING " +
                 "OPERATIONS ON THE ARRAY");
         System.out.println("PRESS::::4--->TO'''''EXIT'''''");
-        int choice;
+        int choice =scannerObject.nextInt();
+
 
 
     }
