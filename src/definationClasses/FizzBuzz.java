@@ -6,11 +6,11 @@ package definationClasses;/*   Created by IntelliJ IDEA.
  */
 
 public class FizzBuzz {
-    int array[] = new int[100];
-    String string = " ";
+    String string;
     int number;
-    FizzBuzz(){
-        this.string ="";
+    public FizzBuzz(){
+        this.string = " ";
+        this.number = 0;
     }
     public String fizzBuzz(){
         for (int index = 0; index <99 ; index++) {

@@ -9,6 +9,7 @@ package MainClass;
 
 import com.sun.jdi.PathSearchingVirtualMachine;
 import definationClasses.Anagram;
+import definationClasses.FizzBuzz;
 
 import java.util.Scanner;
 
@@ -29,6 +30,10 @@ public class ExecutionClass {
                 case 1:
                     Anagram anagramObject = new Anagram();
                     break;
+                case 2:
+                    FizzBuzz fizzBuzzObject =  new FizzBuzz();
+                    break;
+
             }
 
 
