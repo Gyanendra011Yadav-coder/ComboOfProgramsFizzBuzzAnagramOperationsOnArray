@@ -15,6 +15,7 @@ import definationClasses.OperationsOnArray;
 import java.util.Scanner;
 
 public class ExecutionClass {
+    public static final int EXIT=5;
     public static void main(String[] args) {
         Scanner scannerObject = new Scanner(System.in);
         System.out.println("=====WELCOME___TO___COMBO___PROGRAMS=====");
@@ -23,10 +24,11 @@ public class ExecutionClass {
         System.out.println("PRESS::::2--->FOR THE EXECUTION OF THE PROGRAM OF FIZZ-BUZZ");
         System.out.println("PRESS::::3---> FOR THE EXECUTION OF THE PROGRAM OF PERFORMING " +
                 "OPERATIONS ON THE ARRAY");
-        System.out.println("PRESS::::4--->TO'''''EXIT'''''");
+        System.out.println("PRESS::::4--->FOR THE EXECUTION FOR THE PROGRAM OF TABLE:");
+        System.out.println("PRESS::::5--->TO'''''EXIT'''''");
         int choice = scannerObject.nextInt();
 
-        if (choice <= 4 && choice > 0) {
+        if (choice <= 5 && choice > 0) {
             switch (choice) {
                 case 1:
                     Anagram anagramObject = new Anagram();
@@ -40,8 +42,7 @@ public class ExecutionClass {
                 case 4:
 
                     break;
-                case 5:
-
+                case EXIT:
                     break;
             }
 
