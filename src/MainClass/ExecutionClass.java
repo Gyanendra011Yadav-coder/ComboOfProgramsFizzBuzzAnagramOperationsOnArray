@@ -10,6 +10,7 @@ package MainClass;
 import com.sun.jdi.PathSearchingVirtualMachine;
 import definationClasses.Anagram;
 import definationClasses.FizzBuzz;
+import definationClasses.OperationsOnArray;
 
 import java.util.Scanner;
 
@@ -32,6 +33,9 @@ public class ExecutionClass {
                     break;
                 case 2:
                     FizzBuzz fizzBuzzObject =  new FizzBuzz();
+                    break;
+                case 3:
+                    OperationsOnArray arrayObject = new OperationsOnArray();
                     break;
 
             }
