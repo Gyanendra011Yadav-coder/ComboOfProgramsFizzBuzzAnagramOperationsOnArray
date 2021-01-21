@@ -19,6 +19,8 @@ public class ExecutionClass {
         System.out.println("PRESS::::3---> FOR THE EXECUTION OF THE PROGRAM OF PERFORMING " +
                 "OPERATIONS ON THE ARRAY");
         System.out.println("PRESS::::4--->TO'''''EXIT'''''");
+        int choice;
+
 
     }
 }
