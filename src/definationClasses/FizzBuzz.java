@@ -6,5 +6,12 @@ package definationClasses;/*   Created by IntelliJ IDEA.
  */
 
 public class FizzBuzz {
+
+
+
+    FizzBuzz(){
+
+    }
+
 }
 
