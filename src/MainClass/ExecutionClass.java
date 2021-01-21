@@ -8,6 +8,7 @@
 package MainClass;
 
 import com.sun.jdi.PathSearchingVirtualMachine;
+import definationClasses.Anagram;
 
 import java.util.Scanner;
 
@@ -25,7 +26,9 @@ public class ExecutionClass {
 
         if (choice <= 4 && choice > 0) {
             switch (choice) {
-                case :
+                case 1:
+                    Anagram anagramObject = new Anagram();
+                    break;
             }
 
 
