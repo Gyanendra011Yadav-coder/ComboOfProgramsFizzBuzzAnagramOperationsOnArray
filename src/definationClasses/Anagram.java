@@ -26,8 +26,12 @@ public class Anagram {
             for (int i = 0; i < name1.length(); i++) {
                 c = name1.charAt(i);
                 isAngram = false;
-
             }
+            for (int j = 0; j < name2.length(); j++){
+                c=name2.charAt(j);
+                isAngram = true;
+            }
+
         }
         return isAngram;
 
