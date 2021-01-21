@@ -9,5 +9,8 @@ package definationClasses;
 
 public class tableUptoTwenty {
 
+    public tableUptoTwenty(){
+
+    }
 }
 
