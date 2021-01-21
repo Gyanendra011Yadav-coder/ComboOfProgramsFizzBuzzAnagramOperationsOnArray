@@ -38,6 +38,7 @@ public class ExecutionClass {
                     break;
                 case 3:
                     OperationsOnArray arrayObject = new OperationsOnArray();
+                    scannerObject.nextInt();
                     break;
                 case 4:
 

@@ -8,6 +8,12 @@
 package definationClasses;
 
 public class OperationsOnArray {
+    int array[] ;
+
+    public OperationsOnArray(int size){
+        array = new int[size];
+    }
+
 
 
 }
