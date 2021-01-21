@@ -24,10 +24,6 @@ public class FizzBuzz {
                     int number = index;
                 }
             }
-
-
-
-
         return string;
     }
 
