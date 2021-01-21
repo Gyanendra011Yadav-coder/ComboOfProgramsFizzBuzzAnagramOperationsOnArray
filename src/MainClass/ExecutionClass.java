@@ -37,8 +37,9 @@ public class ExecutionClass {
                     FizzBuzz fizzBuzzObject =  new FizzBuzz();
                     break;
                 case 3:
-                    OperationsOnArray arrayObject = new OperationsOnArray();
-                    scannerObject.nextInt();
+                    System.out.println("ENTER THE SIZE OF AN ARRAY:");
+                    OperationsOnArray arrayObject = new OperationsOnArray(scannerObject.nextInt());
+
                     break;
                 case 4:
 

@@ -14,6 +14,8 @@ public class OperationsOnArray {
         array = new int[size];
     }
 
+    public void arr
+
 
 
 }
