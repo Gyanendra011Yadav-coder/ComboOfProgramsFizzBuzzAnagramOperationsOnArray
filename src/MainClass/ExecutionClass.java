@@ -37,7 +37,12 @@ public class ExecutionClass {
                 case 3:
                     OperationsOnArray arrayObject = new OperationsOnArray();
                     break;
+                case 4:
 
+                    break;
+                case 5:
+
+                    break;
             }
 
 
