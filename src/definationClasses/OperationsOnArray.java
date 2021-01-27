@@ -14,7 +14,13 @@ public class OperationsOnArray {
         array = new int[size];
     }
 
-    public void arr
+    public void searching(){
+        System.out.println("ENTER THE ELEMENT YOU WANT TO SEARCH IN THE ARRAY:");
+        for (int i = 0; i < array.length ; i++) {
+
+
+        }
+    }
 
 
 
