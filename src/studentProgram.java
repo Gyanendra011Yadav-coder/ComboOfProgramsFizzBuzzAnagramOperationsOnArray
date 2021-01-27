@@ -5,7 +5,14 @@
  *   File: studentProgram.java
  */
 
+import java.util.Scanner;
+
 public class studentProgram {
-    
+    public static void main(String[] args) {
+        int array[] = new int[10];
+        Scanner scannerObject = new Scanner(System.in);
+
+    }
+
 }
 
