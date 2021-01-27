@@ -9,8 +9,18 @@ import java.util.Scanner;
 
 public class studentProgram {
     public static void main(String[] args) {
-        int array[] = new int[10];
         Scanner scannerObject = new Scanner(System.in);
+         int array[] = new int[10];
+         String  StudentName;
+         String SubjectName;
+         int RollNo;
+         int marks;
+
+
+         for (int i = 0; i < array.length; i++) {
+            array[i] = new int (sca)
+
+        }
 
     }
 
