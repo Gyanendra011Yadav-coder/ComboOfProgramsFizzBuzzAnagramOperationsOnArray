@@ -20,10 +20,8 @@ public class ExecutionClassForStudentClass {
         System.out.println("4) ENTER THE MARKS IN THE SUBJECT3:-");
 
 
-        Student studentObject = new Student(scannerObject.nextLine(),
-                scannerObject.nextDouble(),
-                scannerObject.nextDouble(),
-                scannerObject.nextDouble());
+        Student array[] = new Student[10];
+
     }
 }
 
