@@ -12,6 +12,11 @@ import java.util.Scanner;
 public class ExecutionClassForStudentClass {
     public static void main(String[] args) {
         Scanner scannerObject = new Scanner(System.in);
+
+        Student studentObject = new Student(scannerObject.nextLine(),
+                scannerObject.nextDouble(),
+                scannerObject.nextDouble(),
+                scannerObject.nextDouble());
     }
 }
 
