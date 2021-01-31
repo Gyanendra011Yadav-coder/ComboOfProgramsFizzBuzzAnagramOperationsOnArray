@@ -44,6 +44,14 @@ public class Student {
     public void setMarksInSubject2(double marksInSubject2) {
         this.marksInSubject2 = marksInSubject2;
     }
+
+    public double getMarksInSubject3() {
+        return marksInSubject3;
+    }
+
+    public void setMarksInSubject3(double marksInSubject3) {
+        this.marksInSubject3 = marksInSubject3;
+    }
 }
 
 
