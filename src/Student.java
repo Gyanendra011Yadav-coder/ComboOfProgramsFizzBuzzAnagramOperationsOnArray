@@ -29,6 +29,13 @@ public class Student {
         this.studentName = studentName;
     }
 
+    public double getMarksInSubject1() {
+        return marksInSubject1;
+    }
+
+    public void setMarksInSubject1(double marksInSubject1) {
+        this.marksInSubject1 = marksInSubject1;
+    }
 }
 
 
