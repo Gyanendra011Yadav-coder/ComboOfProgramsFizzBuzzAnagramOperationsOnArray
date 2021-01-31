@@ -11,6 +11,10 @@ import java.util.Scanner;
 
 public class ExecutionClassForStudentClass {
     public static void main(String[] args) {
+        counter();
+    }
+
+    public static void counter(){
         Scanner scannerObject = new Scanner(System.in);
         System.out.println("-------WARNING--------");
         System.out.println("---ENTER THE INPUT IN THE SPECIFIC FORMAT---");
@@ -20,7 +24,7 @@ public class ExecutionClassForStudentClass {
         System.out.println("4) ENTER THE MARKS IN THE SUBJECT3:-");
 
 
-        Student array[] = new Student[10];
+        Student array[] = new Student[2];
         for (int i = 0; i < array.length; i++) {
             array[i] = new Student(scannerObject.nextLine(),
                     scannerObject.nextDouble(),
@@ -28,11 +32,6 @@ public class ExecutionClassForStudentClass {
                     scannerObject.nextDouble());
             passFail(array[i]);
         }
-
-
-
-
-
     }
 
     public static int passFail(Student studentObject){
