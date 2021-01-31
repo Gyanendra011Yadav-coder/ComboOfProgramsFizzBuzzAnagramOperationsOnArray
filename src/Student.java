@@ -36,6 +36,14 @@ public class Student {
     public void setMarksInSubject1(double marksInSubject1) {
         this.marksInSubject1 = marksInSubject1;
     }
+
+    public double getMarksInSubject2() {
+        return marksInSubject2;
+    }
+
+    public void setMarksInSubject2(double marksInSubject2) {
+        this.marksInSubject2 = marksInSubject2;
+    }
 }
 
 
