@@ -19,12 +19,17 @@ public class Student {
             this.marksInSubject1 = marksInSubject1;
             this.marksInSubject2=marksInSubject2;
             this.marksInSubject3=marksInSubject3;
-
-
-
         }
 
+    public String getStudentName() {
+        return studentName;
     }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+}
 
 
 
