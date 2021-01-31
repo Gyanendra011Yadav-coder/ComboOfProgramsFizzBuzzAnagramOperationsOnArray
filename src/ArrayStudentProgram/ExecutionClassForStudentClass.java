@@ -32,8 +32,17 @@ public class ExecutionClassForStudentClass {
 
     }
 
-    public static int passFail(Student studentObject) {
+    public static int passFail(Student studentObject){
         int counter = 0;
+        if (studentObject.getMarksInSubject1()>40){
+            counter += 1;
+            if (studentObject.getMarksInSubject2() > 40){
+                counter += 1;
+                if (studentObject.getMarksInSubject3() > 40){
+                    counter += 1;
+                }
+            }
+        }
 
 
     }
