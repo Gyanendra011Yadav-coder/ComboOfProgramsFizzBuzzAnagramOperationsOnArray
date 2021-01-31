@@ -12,6 +12,13 @@ import java.util.Scanner;
 public class ExecutionClassForStudentClass {
     public static void main(String[] args) {
         Scanner scannerObject = new Scanner(System.in);
+        System.out.println("-------WARNING--------");
+        System.out.println("---ENTER THE INPUT IN THE SPECIFIC FORMAT---");
+        System.out.println("FIRST,ENTER THE NAME OF THE STUDENT:-");
+        System.out.println("2) ENTER THE MARKS IN THE SUBJECT1:-");
+        System.out.println("3) ENTER THE MARKS IN THE SUBJECT2:-");
+        System.out.println("4) ENTER THE MARKS IN THE SUBJECT3:-");
+
 
         Student studentObject = new Student(scannerObject.nextLine(),
                 scannerObject.nextDouble(),
