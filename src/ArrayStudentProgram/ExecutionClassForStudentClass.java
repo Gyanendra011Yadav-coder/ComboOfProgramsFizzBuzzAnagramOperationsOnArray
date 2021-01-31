@@ -30,6 +30,9 @@ public class ExecutionClassForStudentClass {
         }
 
 
+
+
+
     }
 
     public static int passFail(Student studentObject){
@@ -41,11 +44,17 @@ public class ExecutionClassForStudentClass {
                 if (studentObject.getMarksInSubject3() > 40){
                     counter += 1;
                 }
+                if (counter>2){
+                    System.out.println("STUDENT IS PASS");
+                }else {
+                    System.out.println("STUDENT IS FAIL");
+                }
             }
         }
 
-
+return counter;
     }
+
 }
 
 
