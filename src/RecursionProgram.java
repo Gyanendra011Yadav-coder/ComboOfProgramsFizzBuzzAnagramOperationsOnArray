@@ -13,7 +13,9 @@ public class RecursionProgram {
         }
     }
     static void Head(int g){
-        System.out.println(g);
+        if(g>0) {
+            System.out.println(g);
+        }
         Head(g-1);
 
     }
