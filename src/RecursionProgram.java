@@ -20,7 +20,9 @@ public class RecursionProgram {
 
     public static void main(String[] args) {
         int x=5;
+        int y=x;
         number(x);
+        Head(y);
     }
 
 
