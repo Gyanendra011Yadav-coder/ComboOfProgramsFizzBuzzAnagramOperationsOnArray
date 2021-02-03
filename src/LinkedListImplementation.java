@@ -14,5 +14,12 @@ public class LinkedListImplementation {
         Node next;
 
 }
+
+class Student{
+        int rollNo;
+        String name;
+        int marks;
+}
+
 }
 
