@@ -9,11 +9,17 @@ import org.w3c.dom.Node;
 
 public class LinkedListImplementation {
 //    SINGLY LINKED LIST
+
     class Node{
+// primitive data types
         int data;
         Node next;
-
-}
+    }
+    class node2{
+//non-primitive data types
+        Student data;
+        Node nxt;
+    }
 
 class Student{
         int rollNo;
