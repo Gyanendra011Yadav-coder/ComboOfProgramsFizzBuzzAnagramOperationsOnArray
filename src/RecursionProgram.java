@@ -6,5 +6,13 @@
  */
 
 public class RecursionProgram {
+    static void number(int m){
+        if(m<0){
+            System.out.println(m+" ");
+            number(m+1);
+        }
+    }
+
+
 }
 
