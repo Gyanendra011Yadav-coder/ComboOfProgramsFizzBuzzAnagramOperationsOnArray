@@ -13,6 +13,9 @@ public class RecursionProgram {
         }
     }
 
-
+    public static void main(String[] args) {
+        int x=1;
+        number(x);
+    }
 }
 
