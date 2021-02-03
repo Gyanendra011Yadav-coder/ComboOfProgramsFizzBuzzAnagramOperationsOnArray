@@ -7,7 +7,11 @@
 
 public class RecursionProgram {
     static void number(int m){
-        if(m>c0){
+        if(m>0){
+            int sum=1;
+            for(int i=0 ; i<m ; i++){
+                sum*=m;
+            }
             System.out.println(m+" ");
             number(m+1);
         }
