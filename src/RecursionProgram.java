@@ -9,16 +9,19 @@ public class RecursionProgram {
     static void number(int m){
         if(m>0){
             int sum=1;
-            for(int i=0 ; i<m ; i++){
+
+
+            for(int i=m ; i>0 ; i--){
                 sum*=m;
             }
-            System.out.println(m+" ");
-            number(m+1);
+            System.out.println(sum);
+//            System.out.println(m+" ");
+////            number(m+1);
         }
     }
 
     public static void main(String[] args) {
-        int x=1;
+        int x=5;
         number(x);
     }
 }
