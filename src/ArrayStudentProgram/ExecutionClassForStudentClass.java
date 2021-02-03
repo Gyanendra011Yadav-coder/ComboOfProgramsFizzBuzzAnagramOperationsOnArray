@@ -27,9 +27,9 @@ public class ExecutionClassForStudentClass {
         Student array[] = new Student[2];
         for (int i = 0; i < array.length; i++) {
             array[i] = new Student(scannerObject.nextLine(),
-                    scannerObject.nextDouble(),
-                    scannerObject.nextDouble(),
-                    scannerObject.nextDouble());
+                    scannerObject.nextInt(),
+                    scannerObject.nextInt(),
+                    scannerObject.nextInt());
             passFail(array[i]);
         }
     }

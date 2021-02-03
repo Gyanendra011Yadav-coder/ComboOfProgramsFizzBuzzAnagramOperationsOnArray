@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class Student {
 
         String studentName;
-        double marksInSubject1;
-        double marksInSubject2;
-        double marksInSubject3;
+        int marksInSubject1;
+        int marksInSubject2;
+        int  marksInSubject3;
         Scanner scannerObject = new Scanner (System.in);
-        public Student(String studentName,double marksInSubject1,double marksInSubject2,double marksInSubject3){
+        public Student(String studentName,int marksInSubject1,int marksInSubject2,int marksInSubject3){
             this.studentName=studentName;
             this.marksInSubject1 = marksInSubject1;
             this.marksInSubject2=marksInSubject2;
@@ -33,7 +33,7 @@ public class Student {
         return marksInSubject1;
     }
 
-    public void setMarksInSubject1(double marksInSubject1) {
+    public void setMarksInSubject1(int marksInSubject1) {
         this.marksInSubject1 = marksInSubject1;
     }
 
@@ -41,7 +41,7 @@ public class Student {
         return marksInSubject2;
     }
 
-    public void setMarksInSubject2(double marksInSubject2) {
+    public void setMarksInSubject2(int marksInSubject2) {
         this.marksInSubject2 = marksInSubject2;
     }
 
@@ -49,7 +49,7 @@ public class Student {
         return marksInSubject3;
     }
 
-    public void setMarksInSubject3(double marksInSubject3) {
+    public void setMarksInSubject3(int marksInSubject3) {
         this.marksInSubject3 = marksInSubject3;
     }
 }
