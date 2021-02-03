@@ -6,28 +6,33 @@
  */
 
 public class RecursionProgram {
-    static void number(int m){
-        System.out.println("THE OUTPUT OF THE TAIL");
-        if(m>0){
-            System.out.println(m+" ");
-            number(m-1);
+    static void number(int m) {
+
+        if (m > 0) {
+            System.out.println("THE OUTPUT OF THE TAIL");
+            System.out.println(m + " ");
+            number(m - 1);
         }
     }
-    static void Head(int g){
-        System.out.println("THE OUTPUT OF THE HEAD.");
-        if(g>0) {
+
+    static void Head(int g) {
+
+        if (g > 0) {
+            System.out.println("THE OUTPUT OF THE HEAD.");
             System.out.println(g);
         }
-        Head(g-1);
+        Head(g - 1);
 
     }
 
     public static void main(String[] args) {
-        int x=5;
-        int y=x;
+        int x = 5;
+        int y = x;
         number(x);
         Head(y);
     }
+
+}
 
 
 /*
@@ -36,4 +41,3 @@ PRINTING: THE FIRST 10 NATURAL NUMBER.
 
 
 
-}
