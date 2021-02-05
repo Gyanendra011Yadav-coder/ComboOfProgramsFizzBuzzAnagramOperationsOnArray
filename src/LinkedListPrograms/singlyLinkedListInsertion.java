@@ -8,6 +8,10 @@
 package LinkedListPrograms;
 
 public class singlyLinkedListInsertion {
+    class Node{
+        int Data;
+        Node node;
+    }
 
 
 }
