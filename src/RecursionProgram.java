@@ -6,7 +6,7 @@
  */
 
 public class RecursionProgram {
-    static void number(int m) {
+    public void number(int m) {
 
         if (m > 0) {
             System.out.println("THE OUTPUT OF THE TAIL");
@@ -15,7 +15,7 @@ public class RecursionProgram {
         }
     }
 
-    static void Head(int g) {
+    public void Head(int g) {
 
         if (g > 0) {
             System.out.println("THE OUTPUT OF THE HEAD.");
@@ -28,8 +28,6 @@ public class RecursionProgram {
     public static void main(String[] args) {
         int x = 5;
         int y = x;
-        number(x);
-        Head(y);
     }
 
 }

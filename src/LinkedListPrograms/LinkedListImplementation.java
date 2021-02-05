@@ -1,11 +1,13 @@
-/*   Created by IntelliJ IDEA.
+package LinkedListPrograms;/*   Created by IntelliJ IDEA.
  *   Author: Gyanendra Yadav (Gyanendra011Yadav-coder)
  *   Date: 2/3/2021
  *   Time: 4:08 PM
- *   File: LinkedListImplementation.java
+ *   File: LinkedListPrograms.LinkedListImplementation.java
  */
 
 import org.w3c.dom.Node;
+
+import java.util.LinkedList;
 
 public class LinkedListImplementation {
 //    SINGLY LINKED LIST
@@ -58,6 +60,7 @@ class Student{
             obj.insert(n1);
         }
     }
+
 
 }
 
