@@ -8,26 +8,24 @@
 package LinkedListPrograms;
 
 public class singlyLinkedListInsertion {
-
     Node head;
+   class Node {
+       int data;
+       Node next;
+   }
 
-    class Node{
-        int Data;
-        Node Next;
-    }
-
-    public void insert(Node newNode){
-
-        if(head==null){
-            head = newNode;
-        }else{
-            Node temp = head;
-            while (temp.Next!=null){
-                temp = temp.Next;
-            }
-            temp.Next = newNode;
+   public void insert(Node newNode){
+    if(head==null){
+        head = newNode;
+    }else{
+        Node temp = head;
+        while (temp.next!=null){
+            temp =temp.next;
         }
+        temp.next = newNode;
     }
+   }
+
 
 
 }
