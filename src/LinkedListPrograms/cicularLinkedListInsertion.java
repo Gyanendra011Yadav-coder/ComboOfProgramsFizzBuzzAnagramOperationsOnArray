@@ -22,9 +22,11 @@ public class cicularLinkedListInsertion {
             newNode.next = head;
         }else{
             Node temp = head;
-            while(head!=null){
-
+            while(temp.next!=null){
+                temp = temp.next;
             }
+            temp.next = newNode;
+            newNode.next = temp.next;
         }
     }
 }
