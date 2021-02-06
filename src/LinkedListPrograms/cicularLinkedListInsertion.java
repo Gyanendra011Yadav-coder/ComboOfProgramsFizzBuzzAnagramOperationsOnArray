@@ -7,11 +7,25 @@
 
 package LinkedListPrograms;
 
+import org.w3c.dom.Node;
+
 public class cicularLinkedListInsertion {
     Node head;
     class Node{
+        int data;
+        Node next;
+    }
 
+    public void insert(Node newNode){
+        if(head==null){
+            head= newNode;
+            newNode.next = head;
+        }else{
+            Node temp = head;
+            while(head!=null){
 
+            }
+        }
     }
 }
 
