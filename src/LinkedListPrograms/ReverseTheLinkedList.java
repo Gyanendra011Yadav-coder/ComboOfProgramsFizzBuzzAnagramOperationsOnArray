@@ -7,6 +7,8 @@
 
 package LinkedListPrograms;
 
+import java.util.LinkedList;
+
 public class ReverseTheLinkedList {
     class Node{
         int Head;
@@ -14,6 +16,12 @@ public class ReverseTheLinkedList {
         public Node (int newData){
             this.Head = newData;
             this.next = null;
+        }
+    }
+    class LinkedList{
+        Node Head;
+        public LinkedList(){
+            this.Head = null;
         }
     }
 
