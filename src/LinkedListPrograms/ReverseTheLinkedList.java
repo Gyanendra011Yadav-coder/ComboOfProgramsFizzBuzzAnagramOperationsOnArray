@@ -7,10 +7,11 @@
 
 package LinkedListPrograms;
 
+import java.sql.PreparedStatement;
 import java.util.LinkedList;
 
 public class ReverseTheLinkedList {
-    class Node{
+   static class Node{
         int Head;
         Node next;
         public Node (int newData){
@@ -18,12 +19,25 @@ public class ReverseTheLinkedList {
             this.next = null;
         }
     }
-    class LinkedList{
-        Node Head;
-        public LinkedList(){
-            this.Head = null;
-        }
+//
+    static class LinkedList {
+    public Node Head;
+//constructor of LinkedList Class
+    public LinkedList() {
+        this.Head = null;
     }
+
+    //   INSERTION METHOD
+    public void insertNode(int newData) {
+        Node nodeObj = new Node(newData);
+        if (this.Head != null) {
+            nodeObj.next = Head;
+        }
+        this.Head = nodeObj;
+    }
+}
+
+
 
 }
 
