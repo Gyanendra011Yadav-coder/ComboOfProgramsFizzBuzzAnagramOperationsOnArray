@@ -31,6 +31,10 @@ public class CreatingTheNodesOfTree {
         }
     }
 
+    public static void main(String[] args) {
+
+    }
+
 
 }
 
