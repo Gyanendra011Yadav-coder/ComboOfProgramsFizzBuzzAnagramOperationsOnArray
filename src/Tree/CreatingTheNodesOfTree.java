@@ -20,6 +20,8 @@ public class CreatingTheNodesOfTree {
     }
 
     public class BinaryTree{
+        TreeNode root;
+
 
 
 
