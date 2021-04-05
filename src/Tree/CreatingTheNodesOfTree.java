@@ -31,7 +31,11 @@ public class CreatingTheNodesOfTree {
         }
     }
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
+        BinaryTree tree = new BinaryTree();
+        tree.root=new TreeNode(50);
+        tree.root.leftChild=new TreeNode(20);
+        tree.root.rightChild=new TreeNode(60);
 
     }
 
