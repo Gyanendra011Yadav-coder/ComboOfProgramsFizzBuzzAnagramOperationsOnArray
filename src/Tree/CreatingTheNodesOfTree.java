@@ -8,7 +8,16 @@
 package Tree;
 
 public class CreatingTheNodesOfTree {
+    class TreeNode{
+        int key;
+        TreeNode leftChild, rightChild;
 
+        public TreeNode(int key){
+            this.key=key;
+            leftChild=rightChild=null;
+
+        }
+    }
 
 
 }
