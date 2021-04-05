@@ -8,26 +8,27 @@
 package Tree;
 
 public class CreatingTheNodesOfTree {
-    class TreeNode{
+    class TreeNode {
         int key;
         TreeNode leftChild, rightChild;
 
-        public TreeNode(int key){
-            this.key=key;
-            leftChild=rightChild=null;
+        public TreeNode(int key) {
+            this.key = key;
+            leftChild = rightChild = null;
 
         }
     }
 
-    public class BinaryTree{
+    public class BinaryTree {
         TreeNode root;
-        public BinaryTree(int key){
 
+        public BinaryTree(int key) {
+            root = new TreeNode(key);
         }
 
-
-
-
+        BinaryTree() {
+            root = null;
+        }
     }
 
 
