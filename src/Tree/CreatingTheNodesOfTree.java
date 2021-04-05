@@ -19,6 +19,12 @@ public class CreatingTheNodesOfTree {
         }
     }
 
+    public class BinaryTree{
+
+
+
+    }
+
 
 }
 
