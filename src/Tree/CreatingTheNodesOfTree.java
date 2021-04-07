@@ -30,21 +30,9 @@ public class CreatingTheNodesOfTree {
         BinaryTree() {
             root = null;
         }
+    }
 
-
-        public static void main(String[] args) {
-
-            BinaryTree tree = new BinaryTree();
-            tree.root = new TreeNode(50);
-            tree.root.leftChild = new TreeNode(20);
-            tree.root.rightChild = new TreeNode(60);
-            tree.root.leftChild.leftChild = new TreeNode(10);
-            tree.root.leftChild.rightChild = new TreeNode(25);
-            tree.root.rightChild.leftChild = new TreeNode(40);
-            tree.root.rightChild.rightChild = new TreeNode(70);
-            System.out.println();
-        }
-
+    public  void inOrderTraversal(TreeNode root){
 
     }
 }
